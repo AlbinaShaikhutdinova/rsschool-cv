@@ -34,7 +34,7 @@ function clearCompletedTask(){
 ## Job Experience:
 Me and my friends made a [todo-app](https://github.com/AlbinaShaikhutdinova/todo-project) as part of the learning of web-development. HTML/CSS and JS were used as front development tools and Django and Python as backend tools. The app was also deployed on heroku.
 ## Education:
-Peter the Great St. Petersburg Polytechnic University
+Peter the Great St. Petersburg Polytechnic University  
 Bachelor's degree in Computer Science
 ## Languages:
 * Russian - native
