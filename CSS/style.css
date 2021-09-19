@@ -1,0 +1,33 @@
+@import "footer.css";
+@import "header.css";
+@import "main-content.css";
+
+hr{
+    color: white;
+}
+
+h2, h3 {
+    background-color: #e8f1f8;
+}
+
+text{
+    color: #0c2e4d;
+}
+
+a{
+    text-decoration: none;
+    color: #0c2e4d;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    margin:auto;
+//border: 1px solid #0c2e4d;
+//box-shadow: black;
+    color: #0c2e4d;
+}

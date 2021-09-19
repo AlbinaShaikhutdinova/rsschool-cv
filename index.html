@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <!--<span class="place-for-logo">CV</span>-->
+
+        <nav>
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="toggle-menu">
+                <span class="bar top"></span>
+                <span class="bar middle"></span>
+                <span class="bar bottom"></span>
+            </label>
+            <div class="overlay">
+                <ul class="nav-menu">
+                    <li><a href="#aboutme"> About Me </a></li>
+                    <li><a href="#skills"> Skills </a></li>
+                    <li><a href="#experience"> Experience </a></li>
+                    <li><a href="#code"> Code</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Language</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+<main>
+    <div class="top-content">
+        <div class="profile-picture">
+            <img title="not me but look at that confused pup!" class="photo" src="icons/pie.jpg" alt="profile picture">
+        </div>
+        <div class="top__name">
+            <div class="top__name__text">
+                <h1>Albina Shaikhutdinova</h1>
+                <hr>
+                <h4>Aspiring front-end developer</h4>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+       <div class="side-content">
+           <section class="contact" id="contacts">
+               <h3>Contacts</h3>
+               <hr>
+               <ul>
+                   <li>
+                       <img class="icon" src="icons/tlg.png" alt="phone-icon">
+                       <a target="_blank" href="https://telegram.im/@luminerein">@luminerein</a>
+                   </li>
+                   <li>
+                       <img class="icon" src="icons/mail.png" alt="email-icon">
+                       <a target="_blank" href="mailto:18.albina.09@gmail.com">18.albina.09@gmail.com</a>
+                   </li>
+                   <li>
+                       <img class="icon" src="icons/github.png" alt="github-icon">
+                       <a target="_blank" href="https://github.com/AlbinaShaikhutdinova">AlbinaShaikhutdinova</a>
+                   </li>
+               </ul>
+           </section>
+           <section id="education">
+               <h3>Education</h3>
+               <hr>
+               <p>Peter the Great St. Petersburg Polytechnic University <br> <br>
+                   Bachelor's degree in Computer Science</p>
+           </section>
+           <section class="language" id="language">
+               <h3>Languages</h3>
+               <hr>
+               <ul>
+                   <li>
+                       <img class="icon" src="icons/rus.png" alt="rus-flag-icon">
+                       <span>Russian - Native</span>
+                   </li>
+                   <li>
+                       <img class="icon" src="icons/uk.png" alt="uk-flag-icon">
+                       <span>English - Upper-intermediate(B2)</span>
+                   </li>
+               </ul>
+           </section>
+       </div>
+        <div class="main-content">
+            <section id ="aboutme">
+                <h2>About me</h2>
+                <p>
+                    Hello! My name's Albina and I am an aspiring front-end developer. <br>
+                    I got my bachelor's degree in Computer Science in 2021. <br>
+                    I have learned basics of HTML/CSS and JS while making projects with my university friends.
+                    During that time I got interested in frontend development. <br>
+                    I want to pursue a career in that field and that's why I decided to join this course!
+                </p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming languages:
+                        <ol>
+                            <li>C#</li>
+                            <li>SQL/PLSQL</li>
+                            <li>Python (basic)</li>
+                            <li>JavaScript (basic)</li>
+                        </ol>
+                    </li>
+                    <li>Frameworks:
+                        <ol>
+                            <li>ASP.NET</li>
+                            <li>Django</li>
+                        </ol>
+                    </li>
+                    <li>IDE:
+                        <ol>
+                            <li>Visual Studio</li>
+                            <li>WebStorm</li>
+                            <li>Unity</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <p>As a part of learning of web-development me and my friends created a todo-app . </p>
+                    <figure>
+                <a target="_blank" href="https://app-todo-a-n.herokuapp.com/">
+                <img src="icons/todo.JPG" alt="todo-project">
+                </a>
+                <figcaption>Todo-App</figcaption>
+                    </figure>
+                <p>
+                    HTML/CSS and JS were used as front development tools and Django and Python as backend tools.
+                    The app was deployed on heroku.     <br>
+                    You can find the project's repository <a target="_blank" href="https://github.com/AlbinaShaikhutdinova/todo-project"><span>here</span></a>.
+                </p>
+            </section>
+            <section id="code">
+                <h2>Code Example</h2>
+                <div class="code-ex">
+                    <pre>
+                        <code class="javascript">
+ function clearCompletedTask()
+{
+    const elemOfList = document.getElementsByClass("Nob")
+    const length = elemOfList.length;
+
+    for(let i = length-1; i >= 0; i--){
+        if(elemOfList[i].classList.contains('completed'))
+        {
+            elemOfList[i].remove();
+        }
+    }
+}
+                        </code>
+                    </pre>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="rs-school">
+        <a target="_blank" href="https://rs.school/js/">
+            <img class="rs-logo" src="icons/rs_school_js.svg" alt="rs-logo">
+        </a>
+        <span>made in 2021 by</span>
+        <a target="_blank" href="https://github.com/AlbinaShaikhutdinova">
+            <img class="git-logo" src="icons/GitHub-Mark-120px-plus.png" alt="git-logo">
+        </a>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>

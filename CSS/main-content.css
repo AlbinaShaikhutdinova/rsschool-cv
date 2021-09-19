@@ -1,0 +1,150 @@
+main{
+    /*    max-width: 900px;
+        margin:auto;
+        //border: 1px solid #0c2e4d;
+        //box-shadow: black;
+        color: #0c2e4d;*/
+}
+/*header*/
+.top-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #e8f1f8;
+//padding: 10px 20px;
+}
+
+.top__name{
+    display: grid;
+    align-items: center;
+}
+
+.top__name__text{
+    padding:0 20px;
+}
+
+.profile-picture{
+    display: grid;
+    justify-items: center;
+    padding:20px 0;
+
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.content a{
+    font-weight: bolder;
+}
+.content a:hover{
+    text-shadow: 2px 2px 4px #38618c;
+}
+/*content*/
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #e8f1f8;
+//padding: 10px 20px;
+//margin: auto;
+}
+
+.side-content{
+//background-color: lightblue;
+    padding: 0 20px ;
+
+}
+
+.main-content{
+    padding-left: 20px;
+    background-color: white;
+}
+
+#experience img{
+    width: 200px;
+    height: auto;
+    border: 3px solid #e8f1f8;
+    border-radius: 10px;
+}
+#experience img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#experience figure{
+    display: grid;
+    justify-content: center;
+    align-items: center
+
+}
+section{
+    padding: 10px 0 10px 10px ;
+}
+
+.side-content .icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.side-content li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.side-content ul{
+    padding-inline-start:0;
+}
+
+
+pre{
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    border-radius: 20px;
+    margin: 20px;
+}
+code pre{
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 780px) {
+    code{
+        overflow: auto;
+        overflow-x: scroll;
+
+    }
+    pre{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #e8f1f8;
+    //padding: 10px 20px;
+    //margin: auto;
+    }
+    .photo{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .top-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #e8f1f8;
+    }
+    pre{
+        width: 200px;
+    }
+}
