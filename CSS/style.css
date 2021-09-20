@@ -27,7 +27,5 @@ body{
 .container{
     max-width: 900px;
     margin:auto;
-//border: 1px solid #0c2e4d;
-//box-shadow: black;
     color: #0c2e4d;
 }

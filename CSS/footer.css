@@ -2,8 +2,6 @@
 
 
 footer{
-//margin-top: 40px;
-    //border-top: 5px solid white;
     background-color: #e8f1f8;
     display: grid;
     justify-items: center;
@@ -12,8 +10,6 @@ footer{
 }
 footer img{
     padding: 10px;
-    /*height: 80px;*/
-    /*width: 80px;*/
 }
 
 .git-logo{
