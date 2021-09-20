@@ -10,7 +10,6 @@ main{
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #e8f1f8;
-//padding: 10px 20px;
 }
 
 .top__name{
@@ -38,22 +37,16 @@ main{
 .content a{
     font-weight: bolder;
 }
-.content a:hover{
-    text-shadow: 2px 2px 4px #38618c;
-}
+
 /*content*/
 .content{
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #e8f1f8;
-//padding: 10px 20px;
-//margin: auto;
 }
 
 .side-content{
-//background-color: lightblue;
     padding: 0 20px ;
-
 }
 
 .main-content{
